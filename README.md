@@ -19,6 +19,6 @@ One vs all approach was used for classification of the age group.
 <br/>Similar to training, testing feature vectors of testing images are labelled as positive for images having same age group as that svm on which it is tested.
 
 # Prediction
-Image is converted to a feature vector as mentioned in the above steps which is fed into three SVMs.
+Image is converted to a feature vector as mentioned in the above steps and is fed into three SVMs.
 <br/>SVMs finds the probablity of that feature vector belonging to their age group.
 <br/>Age Group will be of the SVM representating the age group having maximum score.
